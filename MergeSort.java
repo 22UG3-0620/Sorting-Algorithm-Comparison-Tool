@@ -52,7 +52,6 @@ public class MergeSort {
         }
         while (i < L.size()) arr.set(k++, L.get(i++));
         while (j < R.size()) arr.set(k++, R.get(j++));
-         while (i < L.size()) arr.set(k++, L.get(i++));
-        while (j < R.size()) arr.set(k++, R.get(j++));
+        
     }
 }
